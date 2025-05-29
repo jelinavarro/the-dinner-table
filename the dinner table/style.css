@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Markazi+Text:wght@400..700&display=swap');
+
+body {
+    background-color:black;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 40vh;
+    margin-bottom: 20vh;
+}
+
+/* header */
+
+.dinner-table-title {
+    color:white;
+    font-family: "Cormorant", serif;    
+    font-size:32px;
+    text-align:center;    
+}
+
+/* head back buttons */
+
+.button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-family: "Cormorant", serif;
+    padding: 7.5px 16px;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-family: "Cormorant", serif;    
+    padding: 7.5px 16px;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* word buttons */
+
+.instructions {
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    text-align: center;
+}
+.clickable-intro {
+    color:silver;
+    font-weight:bold;
+    text-decoration:none;
+    text-align: center;
+}
+
+.clickable {
+    display:inline-block;
+    color:silver;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.clickable:hover {
+    display:inline-block;
+    color:silver;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+/* style for each page */
+
+.general { 
+    color:white;
+    font-family: "Cormorant", serif;    
+    font-size:20px;
+    text-align:left;  
+    line-height: normal;
+}
